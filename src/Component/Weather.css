@@ -1,0 +1,118 @@
+/* WeatherApp.css */
+@import url('https://fonts.googleapis.com/css2?family=Alegreya+Sans+SC:wght@300&family=Alex+Brush&family=Allura&family=Amatic+SC&family=Chakra+Petch:wght@300&family=Cinzel:wght@500&family=Comfortaa:wght@300&family=Cormorant+Garamond:ital,wght@1,600&family=Cormorant:wght@400;500&family=Edu+SA+Beginner:wght@500&family=Fredericka+the+Great&family=Gruppo&family=Indie+Flower&family=Julee&family=Jura:wght@500&family=Kaisei+HarunoUmi:wght@700&family=Kaushan+Script&family=Marmelad&family=Monoton&family=Mulish:wght@700&family=Nanum+Brush+Script&family=Open+Sans:wght@400;700&family=Orbitron:wght@400;800&family=Parisienne&family=Play&family=Poiret+One&family=Poppins:ital@1&family=Roboto+Slab&display=swap');
+/* Styles for the weather app container */
+.weather-app {
+    background-image: url('./images/paul-pastourmatzis-KT3WlrL_bsg-unsplash.jpg'); /* Replace with your background image URL */
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-family: Arial, sans-serif;
+    color: #fff;
+  }
+  
+  /* Styles for the app title */
+  .weather-app-title {
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family: 'Chakra Petch', sans-serif; 
+  }
+    
+  
+  /* Styles for the search container */
+  .search-container {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  
+  /* Styles for the search input */
+  .search-label {
+    font-size: 18px;
+    margin-right: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    border-radius: 30px;
+    outline: none;
+    font-family: 'Comfortaa', cursive;
+  }
+  
+  /* Styles for the search button */
+  .search-button {
+    padding: 10px 20px;
+    background-color: #4b5569;
+    color: white;
+    border: transparent;
+    
+    border-radius: 30px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+    
+
+  }
+  
+  /* Styles for the weather info container */
+  .weather-info {
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    width: 430px;
+  }
+  
+  /* Styles for weather data */
+  .city-name {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-family: 'Chakra Petch', sans-serif;
+  }
+  
+  
+  .temperature, .weather-description, .humidity, .wind-speed {
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  /* Styles for loading message */
+  .loading {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  /* WeatherApp.css */
+
+/* ... (previous styles) */
+
+/* Styles for weather data container */
+.weather-data-container {
+    display: flex;
+    flex-direction: row; /* Arrange elements horizontally */
+    justify-content: space-around; /* Distribute elements evenly along the row */
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  /* Styles for individual weather data items */
+  .weather-data-item {
+    text-align: center;
+    margin: 10px;
+  }
+  
+  /* ... (previous styles) */
+  p{
+    font-family: 'Kaushan Script', cursive;
+    font-size: 15px;
+  }
